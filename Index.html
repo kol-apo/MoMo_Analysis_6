@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoMoInsights Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MoMoInsights</h1>
+    </header>
+    <main>
+        <section id="summary">
+            <h2>Total Transactions: <span id="total-transactions">0</span></h2>
+        </section>
+        <section id="filters">
+            <input type="text" id="search" placeholder="Search transactions...">
+        </section>
+        <section id="charts">
+            <canvas id="transactionChart"></canvas>
+        </section>
+        <section id="transactions-list">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Type</th>
+                        <th>Amount</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody id="transactions-table">
+                    <!-- Transactions will be inserted here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
