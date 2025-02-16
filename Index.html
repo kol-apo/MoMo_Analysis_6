@@ -3,40 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MoMoInsights Dashboard</title>
+    <title>MTN MoMo Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>MoMoInsights</h1>
-    </header>
-    <main>
-        <section id="summary">
-            <h2>Total Transactions: <span id="total-transactions">0</span></h2>
-        </section>
-        <section id="filters">
+
+    <div class="dashboard-container">
+        <h1>MoMo Transactions</h1>
+
+        <div class="dashboard-header">
             <input type="text" id="search" placeholder="Search transactions...">
-        </section>
-        <section id="charts">
-            <canvas id="transactionChart"></canvas>
-        </section>
-        <section id="transactions-list">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Date</th>
-                        <th>Type</th>
-                        <th>Amount</th>
-                        <th>Details</th>
-                    </tr>
-                </thead>
-                <tbody id="transactions-table">
-                    <!-- Transactions will be inserted here -->
-                </tbody>
-            </table>
-        </section>
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+            <label for="filter-type">Filter by Type:</label>
+            <select id="filter-type">
+                <option value="all">All</option>
+                <option value="Incoming Money">Incoming Money</option>
+                <option value="Payments to Code Holders">Payments to Code Holders</option>
+                <option value="Airtime Bill Payments">Airtime Bill Payments</option>
+                <option value="Withdrawals from Agents">Withdrawals from Agents</option>
+                <option value="Internet and Voice Bundle Purchases">Internet and Voice Bundle Purchases</option>
+            </select>
+
+            <label for="sort-by">Sort by:</label>
+            <select id="sort-by">
+                <option value="date">Date (Newest First)</option>
+                <option value="amount">Amount (Highest First)</option>
+            </select>
+        </div>
+
+        <table id="transactions-table">
+            <thead>
+                <tr>
+                    <th>Transaction ID</th>
+                    <th>Type</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Transactions will be inserted here dynamically -->
+            </tbody>
+        </table>
+
+        <p><strong>Total Transactions:</strong> <span id="total-transactions">0</span></p>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
