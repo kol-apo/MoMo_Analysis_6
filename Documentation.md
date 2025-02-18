@@ -151,9 +151,10 @@ This system processes XML-formatted SMS data from MTN MoMo transactions, cleans 
 ---
 
 ## 9. Contact Information  
-- Developer: [Your Name]  
-- Email: [Your Email]  
-- GitHub: [Repository Link]  
+- SINGA SARAGBA Ewing Kelyan Github Username : Zoulou1 
+- JOSHUA Ochel Mugisha Github Username : Mugisha-Joshua Email : o.mugisha2@alustudent.com
+- KOLAPO Github Username : kol-apo Email : e.olubanjo@alustudent.com
+- GitHub: https://github.com/kol-apo/MoMo_Analysis_6.git  
 
 ---
 
@@ -168,8 +169,8 @@ This system processes XML-formatted SMS data from MTN MoMo transactions, cleans 
    - `log_id`, `raw_message`, `error_description`.  
 
 ### Dependencies
-- Python: `Flask`, `pandas`, `lxml`.  
-- Frontend: `Chart.js`, `Bootstrap`.  
+- Python: `Flask`.  
+- Frontend: `html`, `css`, `javascript`.  
 
 ### ER Diagram  
 ```plaintext
