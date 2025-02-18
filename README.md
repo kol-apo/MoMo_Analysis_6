@@ -14,5 +14,31 @@ MoMo Analysis 6 is an enterprise-level full-stack application for processing, ca
 - Frontend: HTML, CSS, JavaScript (Chart.js)  
 - Backend: Python 
 - Database: PostgreSQL / SQLite / MySQL  
-- Parsing Libraries: Python (xml.etree.ElementTree, pandas) / JavaScript (DOMParser)  
+- Parsing Libraries: Python (xml.etree.ElementTree, pandas) / JavaScript (DOMParser)
+
+## 🔧 Setup & Installation
+Click on this Link: 
+OR
+
+1️⃣ Clone the repository
+sh
+Copy
+Edit
+git clone https://github.com/kol-apo/MoMo_Analysis_6.git
+cd MoMo_Analysis_6
+2️⃣ Backend Setup (if applicable)
+Python (Flask/FastAPI)
+sh
+Copy
+Edit
+pip install -r requirements.txt  
+python app.py
+Node.js (Express)
+sh
+Copy
+Edit
+npm install  
+node server.js
+3️⃣ Frontend Setup
+Simply open frontend/index.html in your browser.
 
