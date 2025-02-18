@@ -22,24 +22,24 @@ Click on this Link: https://kol-apo.github.io/MoMo_Analysis_6/
 OR
 
 1️⃣ Clone the repository
-sh
-Copy
-Edit
-git clone https://github.com/kol-apo/MoMo_Analysis_6.git
-cd MoMo_Analysis_6
-2️⃣ Backend Setup (if applicable)
-Python (Flask/FastAPI)
-sh
-Copy
-Edit
-pip install -r requirements.txt  
-python app.py
-Node.js (Express)
-sh
-Copy
-Edit
-npm install  
-node server.js
-3️⃣ Frontend Setup
+sh <br>
+Copy <br>
+Edit <br>
+git clone https://github.com/kol-apo/MoMo_Analysis_6.git <br>
+cd MoMo_Analysis_6 <br>
+2️⃣ Backend Setup (if applicable) <br>
+Python (Flask/FastAPI) <br>
+sh <br>
+Copy <br>
+Edit <br>
+pip install -r requirements.txt  <br>
+python app.py <br>
+Node.js (Express) <br>
+sh <br>
+Copy <br>
+Edit <br>
+npm install  <br>
+node server.js <br>
+3️⃣ Frontend Setup <br>
 Simply open frontend/index.html in your browser.
 
