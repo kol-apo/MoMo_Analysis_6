@@ -27,7 +27,7 @@ Copy <br>
 Edit <br>
 git clone https://github.com/kol-apo/MoMo_Analysis_6.git <br>
 cd MoMo_Analysis_6 <br>
-2️⃣ Backend Setup (if applicable) <br>
+2️⃣ Backend Setup <br>
 Python (Flask/FastAPI) <br>
 sh <br>
 Copy <br>
