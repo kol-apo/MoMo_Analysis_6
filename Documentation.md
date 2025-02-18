@@ -3,7 +3,7 @@
 Assignment Title : MTN MoMo SMS Data Processing and Analytics Dashboard  
 System Name: MoMo Transaction Insights  
 Version: 1.0.0  
-Date [Insert Date]  
+Date 18 Feb 2025  
 
 
 
@@ -91,7 +91,7 @@ This system processes XML-formatted SMS data from MTN MoMo transactions, cleans 
 ### Setup  
 1. Clone Repository:  
    ```bash  
-   git clone [your-repo-link]  
+   git clone https://github.com/kol-apo/MoMo_Analysis_6.git  
    ```  
 2. Install Dependencies:  
    ```bash  
